@@ -1,0 +1,28 @@
+Facebook Prophet Setup instructions:
+At first run this following commands in the terminal
+
+Install c++ complier:
+conda install libpython m2w64-toolchain -c msys2
+
+Install dependencies:
+conda install numpy cython -c conda-forge
+
+Install Ephem
+conda install -c anaconda ephem
+
+Install PyStan:
+pip install pystan
+pip3 install pystan
+or
+conda install pystan -c conda-forge
+
+Install fbprophet
+pip install fbprophet
+pip3 install fbprophet
+or
+conda install -c conda-forge fbprophet
+
+
+
+
+
